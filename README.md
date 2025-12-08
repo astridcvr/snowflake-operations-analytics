@@ -127,12 +127,12 @@ Ordered evaluations
 
 ---
 
-# Connect
+Connect
 If you found these helpful or want to suggest a topic, feel free to connect or follow on [LinkedIn](https://www.linkedin.com/in/astridvillalobos).
 
 ---
 
-# License
+License
 These resources are free to use for learning and personal use. Please credit the author if you reuse the visuals.
 
 
