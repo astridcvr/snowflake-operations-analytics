@@ -92,7 +92,7 @@ These datasets enable analysis across commerce, operations, production, and qual
 
 ## SQL Files Explained
 
-### ** 1. `01_create_tables.sql` — Table Creation**
+### **1. `01_create_tables.sql` — Table Creation**
 Includes:
 - Environment setup  
 - Core table definitions  
