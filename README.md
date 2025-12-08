@@ -145,7 +145,7 @@ Includes business-oriented analytics:
 
 If you found this project useful or would like to collaborate:
 
-👉 **LinkedIn:** https://www.linkedin.com/in/astridvillalobos  
+👉 **LinkedIn:** [https://www.linkedin.com/in/astridcvr/]
 
 ---
 
