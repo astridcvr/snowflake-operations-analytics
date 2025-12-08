@@ -1,138 +1,156 @@
-README.md — Snowflake Analytics Simulation Project
+# Snowflake Analytics Simulation Project
 
-### Snowflake Analytics Simulation Project
-
----
-
-# Author: Astrid Villalobos
-# Role: Data Analyst / Data Engineering Portfolio Project
-# Tools: Snowflake · SQL · Power BI · Kaggle · Data Modeling
+**Author:** Astrid Villalobos  
+**Role:** Data Analyst / Data Engineering Portfolio Project  
+**Tools:** Snowflake · SQL · Power BI · Kaggle · Data Modeling  
 
 ---
 
-# Project Overview
-This project simulates an end-to-end analytics workflow using Snowflake and real-world e-commerce data from Kaggle.
-To enrich the analysis, the project generates simulated production and quality testing data, allowing for a more realistic multi-domain analytics scenario similar to what a technology, manufacturing, or telecom company would handle.
+## Project Overview
 
-The goal is to demonstrate:
-- Database & schema design
-- Table creation (real + simulated data)
-- Analytical SQL (joins, window functions, KPIs)
-- Data quality metrics
-- Production monitoring
-- Visual analytics (Power BI dashboard)
-- Reproducible project structure for industry use
+This project simulates an **end-to-end analytics workflow** using Snowflake and real-world e-commerce data from Kaggle.  
+To extend the analytical depth, the project generates **simulated production and technical testing datasets**, creating a multi-domain environment similar to what tech, telecom, logistics, or manufacturing companies manage daily.
+
+This project demonstrates:
+
+- Database & schema design  
+- Table creation (real + simulated data)  
+- Analytical SQL (joins, window functions, KPIs)  
+- Production & quality monitoring  
+- Power BI dashboard development  
+- Reproducible, industry-style project structure  
 
 ---
 
-# 📂 Repository Structure
+## Repository Structure
+
 /sql
-   ├── 01_create_tables.sql
-   ├── 02_simulation_data.sql
-   └── 03_analysis_queries.sql
+├── 01_create_tables.sql
+├── 02_simulation_data.sql
+└── 03_analysis_queries.sql
 
 /dashboard
-   └── analytics_dashboard.pbix
+└── analytics_dashboard.pbix (in progress)
 
 /images
-   └── dashboard_preview.png   (optional screenshot)
+└── dashboard_preview.png (in progress)
 
 
-Each SQL file is modular and corresponds to one phase of the project.
-📊 Datasets Used
-✅ Real Dataset (Kaggle — Olist E-commerce)
+Each SQL file is modular and corresponds to a different phase of the project.
+
+---
+
+## Datasets Used
+
+### Real Dataset (Kaggle — Olist E-commerce)
 
 Contains customer, order, and item-level sales data.
 
 Tables loaded into Snowflake:
-- CUSTOMERS
-- ORDERS
-- ORDER_ITEMS
+
+- `CUSTOMERS`
+- `ORDERS`
+- `ORDER_ITEMS`
 
 ---
 
-# 🔧 Simulated Datasets (Generated in Snowflake)
-To mimic operations, production, and technical diagnostics, the following tables were generated:
+## Simulated Datasets (Generated in Snowflake)
 
-# PRODUCTION_STATUS
-Machine performance
-Units produced / failed
-Failure rates
+Two synthetic tables were created to mimic operational and technical testing environments:
 
-# TEST_RESULTS
-Latency
-Packet loss
-Pass/fail technical testing
+### **`PRODUCTION_STATUS`**
+- Machine performance  
+- Units produced / failed  
+- Failure rate calculation  
 
-This creates a multi-domain environment suitable for analytics projects.
+### **`TEST_RESULTS`**
+- Latency measurements  
+- Packet loss  
+- Pass/fail classification  
+
+These datasets enable analysis across commerce, operations, production, and quality monitoring.
 
 ---
 
-# Snowflake Architecture
-- Warehouse: DATA_WH
-- Database: DATA_PROJECT
-- Schema: ANALYTICS
-- Tables:
+## Snowflake Architecture
+
+- **Warehouse:** `DATA_WH`  
+- **Database:** `DATA_PROJECT`  
+- **Schema:** `ANALYTICS`  
+
+### **Tables Overview**
 
 | Table | Description |
 |-------|-------------|
-CUSTOMERS | Customer demographic + location data |
-ORDERS | Order lifecycle events |
-ORDER_ITEMS | Line-item details with prices & freight |
-PRODUCTION_STATUS | Simulated production batches per machine |
-TEST_RESULTS | Simulated quality and performance test results |
+| `CUSTOMERS` | Customer demographic & location data |
+| `ORDERS` | Order lifecycle events |
+| `ORDER_ITEMS` | Line-item pricing and product-level details |
+| `PRODUCTION_STATUS` | Simulated production batches per machine |
+| `TEST_RESULTS` | Simulated quality & performance test results |
 
 ---
 
-# SQL Explained
-# 1. Table Creation – 01_create_tables.sql
-Creates all core and simulated tables.
-Includes environmental setup and schema selection.
+## SQL Files Explained
 
-# 2. Data Simulation – 02_simulation_data.sql
-# Production Simulation
-Random machine assignment
-Variable units produced and failed
-Automatic failure rate calculation
-
-# Technical Test Simulation
-Random latency
-Random packet loss
-Pass/fail outcome
-500 sample tests
-
-# 3. Analytical Queries – 03_analysis_queries.sql
-Includes advanced SQL with real business applications:
-
-✔ Revenue Analytics
-Top products by revenue
-Revenue vs production output
-
-✔ Logistics KPI
-% on-time deliveries
-
-✔ Operational Performance
-Failure rate per machine
-Units produced vs failed
-
-✔ Quality & Reliability
-Latency & packet loss averages
-Test pass rate
-Degradation detection using LAG
-
-✔ Trend & Diagnostic Analysis
-Time-based performance indicators
-Window functions
-Ordered evaluations
+### ** 1. `01_create_tables.sql` — Table Creation**
+Includes:
+- Environment setup  
+- Core table definitions  
+- Simulation table definitions  
 
 ---
 
-# Connect
-If you found these helpful or want to suggest a topic, feel free to connect or follow on [LinkedIn](https://www.linkedin.com/in/astridvillalobos).
+### **2. `02_simulation_data.sql` — Data Simulation**
+
+#### **Production Simulation**
+- Random machine assignment  
+- Random units produced & failed  
+- Failure rate calculation  
+
+#### **Technical Test Simulation**
+- Random latency  
+- Random packet loss  
+- Random pass/fail assignment  
+- 500 generated test samples  
 
 ---
 
-# License
-These resources are free to use for learning and personal use. Please credit the author if you reuse the visuals.
+### **3. `03_analysis_queries.sql` — Analytical Queries**
 
+Includes business-oriented analytics:
+
+#### ✔ Revenue Analytics  
+- Top products by revenue  
+- Revenue vs production output  
+
+#### ✔ Logistics KPIs  
+- On-time delivery percentage  
+
+#### ✔ Operational Performance  
+- Failure rate by machine  
+- Units produced vs failed  
+
+#### ✔ Quality & Reliability  
+- Latency & packet loss metrics  
+- Test pass rate  
+- Performance degradation detection `LAG`  
+
+#### ✔ Trend & Diagnostic Analysis  
+- Window functions  
+- Time-based performance indicators  
+
+---
+
+## Connect
+
+If you found this project useful or would like to collaborate:
+
+👉 **LinkedIn:** https://www.linkedin.com/in/astridvillalobos  
+
+---
+
+## License
+
+These resources are free to use for learning and personal development.  
+Please credit the author if you reuse any part of the project.
 
