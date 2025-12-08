@@ -141,6 +141,13 @@ Includes business-oriented analytics:
 
 ---
 
+🔗 Snowflake Worksheet (Read-Only View)
+
+You can view the full executed SQL script directly in Snowflake here:
+👉 https://app.snowflake.com/iiohfin/fb68639/w3x1O5jui222#query
+
+---
+
 ## Connect
 
 If you found this project useful or would like to collaborate:
