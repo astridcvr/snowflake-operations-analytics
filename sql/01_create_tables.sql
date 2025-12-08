@@ -1,5 +1,3 @@
-01_create_tables.sql
-
 ------------------------------------------------------
 -- FILE: 01_create_tables.sql
 -- PROJECT: Snowflake Analytics Simulation
