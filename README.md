@@ -10,7 +10,7 @@ README.md — Snowflake Analytics Simulation Project
 
 ---
 
-## Project Overview
+# Project Overview
 This project simulates an end-to-end analytics workflow using Snowflake and real-world e-commerce data from Kaggle.
 To enrich the analysis, the project generates simulated production and quality testing data, allowing for a more realistic multi-domain analytics scenario similar to what a technology, manufacturing, or telecom company would handle.
 
@@ -25,7 +25,7 @@ The goal is to demonstrate:
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 /sql
    ├── 01_create_tables.sql
    ├── 02_simulation_data.sql
@@ -51,7 +51,7 @@ Tables loaded into Snowflake:
 
 ---
 
-## 🔧 Simulated Datasets (Generated in Snowflake)
+# 🔧 Simulated Datasets (Generated in Snowflake)
 To mimic operations, production, and technical diagnostics, the following tables were generated:
 
 # PRODUCTION_STATUS
@@ -68,7 +68,7 @@ This creates a multi-domain environment suitable for analytics projects.
 
 ---
 
-## Snowflake Architecture
+# Snowflake Architecture
 - Warehouse: DATA_WH
 - Database: DATA_PROJECT
 - Schema: ANALYTICS
@@ -84,7 +84,7 @@ TEST_RESULTS | Simulated quality and performance test results |
 
 ---
 
-## SQL Explained
+# SQL Explained
 # 1. Table Creation – 01_create_tables.sql
 Creates all core and simulated tables.
 Includes environmental setup and schema selection.
@@ -127,14 +127,12 @@ Ordered evaluations
 
 ---
 
-## Connect
-
+# Connect
 If you found these helpful or want to suggest a topic, feel free to connect or follow on [LinkedIn](https://www.linkedin.com/in/astridvillalobos).
 
 ---
 
-## License
-
+# License
 These resources are free to use for learning and personal use. Please credit the author if you reuse the visuals.
 
 
