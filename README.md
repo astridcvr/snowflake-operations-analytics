@@ -1,7 +1,7 @@
 # Snowflake Analytics Simulation Project
 
 **Author:** Astrid Villalobos  
-**Role:** Data Analyst / Data Engineering Portfolio Project  
+**Role:** Data Analyst Portfolio Project  
 **Tools:** Snowflake · SQL · Power BI · Kaggle · Data Modeling  
 
 ---
