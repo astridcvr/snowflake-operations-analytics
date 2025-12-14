@@ -19,10 +19,13 @@ USE SCHEMA ANALYTICS;
 ------------------------------------------------------
 -- CUSTOMERS
 -- ORDERS
--- ORDER_ITEMS
+-- ORDER_ITEMS_DATASET
 
 -- These tables were created using Snowflake's
 -- "Upload Local Files" feature.
+
+-- ORDER_ITEMS_DATASET was loaded from the official
+-- olist_order_items_dataset.csv file (Kaggle)
 
 ------------------------------------------------------
 -- 2. Simulated Production Table
