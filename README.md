@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project simulates an **end-to-end analytics workflow** using Snowflake and real-world e-commerce data from Kaggle.
 
@@ -23,7 +23,7 @@ The project demonstrates:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 /sql
 ├── 01_create_tables.sql
@@ -41,9 +41,9 @@ Each SQL file is modular and represents a distinct phase of the analytics workfl
 
 ---
 
-## 📊 Datasets Used
+## Datasets Used
 
-### ✅ Real Dataset (Kaggle — Olist E-commerce)
+### Real Dataset (Kaggle — Olist E-commerce)
 
 Customer, order, and item-level sales data.
 
@@ -55,7 +55,7 @@ Tables loaded into Snowflake:
 
 ---
 
-## 🔧 Simulated Datasets (Generated in Snowflake)
+## Simulated Datasets (Generated in Snowflake)
 
 To replicate operational and technical monitoring scenarios, two synthetic tables were generated:
 
@@ -73,7 +73,7 @@ These datasets enable analytics across **commerce, operations, production, and q
 
 ---
 
-## 🏗 Snowflake Architecture
+## Snowflake Architecture
 
 - **Warehouse:** `DATA_WH`
 - **Database:** `DATA_PROJECT`
@@ -91,9 +91,9 @@ These datasets enable analytics across **commerce, operations, production, and q
 
 ---
 
-## 🧠 SQL Files Explained
+## SQL Files Explained
 
-### 1️⃣ `01_create_tables.sql` — Table Creation
+### 1. `01_create_tables.sql` — Table Creation
 Includes:
 - Environment setup
 - Core table definitions
@@ -101,7 +101,7 @@ Includes:
 
 ---
 
-### 2️⃣ `02_simulation_data.sql` — Data Simulation
+### 2. `02_simulation_data.sql` — Data Simulation
 
 **Production Simulation**
 - Random machine assignment
@@ -116,7 +116,7 @@ Includes:
 
 ---
 
-### 3️⃣ `03_analysis_queries.sql` — Analytical Queries
+### 3. `03_analysis_queries.sql` — Analytical Queries
 
 Includes business-oriented analytics:
 
@@ -142,15 +142,7 @@ Includes business-oriented analytics:
 
 ---
 
-## 🔗 Snowflake Worksheet (Read-Only)
-
-You can view the **full executed SQL script** directly in Snowflake here:
-
-👉 https://app.snowflake.com/iiohfin/fb68639/w3x1O5jui222#query
-
----
-
-## 🤝 Connect
+## Connect
 
 If you found this project useful or would like to collaborate:
 
@@ -158,7 +150,7 @@ If you found this project useful or would like to collaborate:
 
 ---
 
-## 📄 License
+## License
 
 These resources are free to use for **learning and personal development**.  
 Please credit the author if you reuse any part of this project.
